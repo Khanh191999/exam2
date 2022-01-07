@@ -1,0 +1,495 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: Graphik;
+}
+:root
+{
+    --primary: #4452FE;
+    --secondary: #02E4C0;
+    --first-text: #000;
+    --light-text: #fff;
+    --second-text: #5C5C5C;
+    --dark-background: #181818;
+    --light-background: #fff;
+}
+body{
+    background-color: var(--dark-background);
+}
+/* #header
+{
+    
+} */
+.navbar-img
+{
+    width: 186px;
+    height: 58px;
+    left: 10px;
+    top: 10px;
+    background: url("../images/Rectangle\ 4.png");
+}
+.navbar
+{
+    display: flex;
+    margin: 0 auto;
+    width: 1097px;
+    height: 119px;
+}
+.frame
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 393px;
+    height: 44px;
+}
+/* .frame.col.l-4
+{
+    display: flex;
+} */
+.nav-link
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* light text */
+
+    color: #FFFFFF;
+
+}
+a.nav-link
+{
+    float: left;
+}
+.nav-button
+{
+    width: 139px;
+    height: 52px;
+    background-color: var(--dark-background);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    color:  var(--light-text);
+    border: 1px solid var(--light-text);
+    letter-spacing: 0.2px
+}
+
+.text
+{
+    align-items: center;
+    padding: 50px 0px;
+}
+.headline
+{
+    width: 729px;
+    height: 196px;
+    margin: 0 auto;
+}
+.headline p
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 88px;
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
+}
+.subheading
+{
+    width: 602px;
+    height: 80px;
+    margin: 0 auto;
+}
+.subheading p
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.button-group
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 387px;
+    height: 65px;
+    margin: 0 auto;
+}
+.button
+{
+    background-color: var(--primary);
+    outline: none;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.button-opa
+{
+    background: var(--dark-background);
+    margin-left: 30px;
+    border: 1px solid var(--light-text);
+}
+
+
+.screen
+{
+    
+}
+.board
+{
+    
+}
+.dashboard
+{
+    
+}
+.chatbot
+{
+    
+}
+
+.feature
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 62px 50px;
+    width: 100%;
+    /* height: 1112px; */
+}
+.feature-content
+{
+    position: static;
+    /* height: 988px; */
+    margin: 0 auto;
+}
+.feature-heading
+{
+    /* width: 1479px; */
+    /* height: 988px; */
+}
+.heading-second
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.sub-heading
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    width: 602px;
+    margin: 26px auto;
+}
+.feature-img-group
+{
+    width: 1088px;
+    height: 759px;
+    left: 195.5px;
+    top: 229px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.feature-img{
+    position: relative;
+    width: 752px;
+    height: 759px;
+}
+.img-chatbot{
+    width: 696px;
+    height: 659px;
+    background: url("../images/ChatBot2.png");
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+}
+.img-chart{
+    position: absolute;
+    bottom: 0;
+    width: 400px;
+    height: 276px;
+    left: 352px;
+    background: url("../images/LineChart.png");
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+}
+.feature-text-group{
+
+}
+.text-item
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    margin-top: 110px;
+    margin-left: 27px;
+    width: 204.49px;
+    height: 80px;
+}
+.item-header
+{
+    display: flex;
+    width: 204.49px;
+    height: 80px;
+}
+.header-icon
+{
+    margin: 10px 0;
+}
+.header-heading
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    padding: 10px;
+    color: #FFFFFF;
+    margin: 0 10px;
+
+}
+.item-des
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 0 10px;
+    width: 269px;
+    height: 116px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 199px;
+    width: 100%;
+    height: 930.52px;
+    background: var(--dark-background);
+    margin-top: 930px;
+}
+.text-content
+{
+    width: 591px;
+    height: 162px;
+    margin: 0 auto;
+}
+.content-heading
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+.content-sub
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 10px 0;
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* light text */
+
+    color: #FFFFFF;
+
+}
+
+.content-card
+{
+    display: flex;
+    width: 985px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-around;
+}
+.card-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    box-sizing: border-box;
+    /* shadow */
+    width: 476px;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+.card-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: 0.1px;
+
+    /* first text */
+
+    color: #000000;
+
+}
+.card-btn
+{
+    margin: 57px 0;
+}
+.card-des{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    width: 288px;
+
+    color: #5C5C5C;
+}
+.card-img1{
+    width: 312.33px;
+    height: 195.18px;
+    background: url("../images/SCREENMASK.png");
+}
+.card-img1-1{
+    width: 405.12px;
+    height: 8.37px;
+    background: url("../images/Base.png");
+}
+.card-img2
+{
+    width: 379px;
+    height: 276px;
+    background: url("../images/BoardsNotifications.png");
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+    border-radius: 14px;
+}
+@media only screen and (max-width:740px)
+{
+    header
+    {
+        margin: 0 15px;
+    }
+    .navbar
+    {
+        width: 100%;
+    }
+    .headline
+    {
+        width: 100%;
+        margin-bottom: 27px;
+    }
+    .headline p
+    {
+        font-size: 58px;
+        font-weight: 400;
+        line-height: 62px;
+    }
+    .subheading
+    {
+        width: 100%;
+    }
+    .subheading p
+    {
+        padding: 0 20px;
+    }
+    .button-group
+    {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .feature-content
+    {
+        width: 100%;
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 62px;
+        margin: 0;
+        height: 180px;
+    }
+    .sub-heading
+    {
+        width: 100%;
+        height: 180px;
+        padding: 0 10px;
+    }
+    .img-chatbot{
+        width: 324px;
+        height: 319px;
+        background: url("../images/ChatBot2.png");
+        filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+    }
+    .img-chart{
+        position: absolute;
+        bottom: 0;
+        width: 232px;
+        height: 160px;
+        /* left: 352px; */
+        background: url("../images/LineChart.png");
+        filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+    }
+    .feature-img-group
+    {
+        width: 100%;
+        display: block ;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .feature-img
+    {
+        width: 100%;
+    }
+
+}
